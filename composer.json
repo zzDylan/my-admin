@@ -1,0 +1,18 @@
+{
+    "name": "zzdylan/myadmin",
+    "description": "admin",
+    "type": "library",
+    "license": "test",
+    "authors": [
+        {
+            "name": "zzdylan",
+            "email": "527844046@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ZzDylan\\Admin\\": "src/"
+        }
+    }
+}
