@@ -10,7 +10,7 @@ class AdminServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([__DIR__.'/../../config/admin.php' => config_path('admin.php')]);
+        $this->publishes([__DIR__.'/../../config/admin.php' => config_path('admin.php')],'myadmin');
     }
     /**
      * Register the service provider.
